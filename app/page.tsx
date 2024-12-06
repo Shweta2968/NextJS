@@ -21,7 +21,7 @@ export default function env(){
           {
               process.env.NODE_ENV == "development"?
               <h1>You are in development mode</h1>:
-              <h1>You are in production mode</h1>
+              <h1>You are in production MODE mode</h1>
           }
           <h1>Environment Variables in Next JS</h1>
           <h1>{API_BASE_URL}</h1>
